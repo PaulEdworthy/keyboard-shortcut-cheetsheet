@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  /* outline: 1px solid red; */
+}
+
+body {
+  background-color: #555;
+  color: #fff;
+}
+
+h3 {
+  border-left: none;
+}
+
+img {
+  height: 3rem;
+  width: auto;
+}
+
+a {
+  color: #fff;
+}
+
+/* Utility Classes */
+.bb1 {
+  border-bottom: 1px solid #fff;
+}
+
+.p1 {
+  padding: .5rem;
+}
+/* ---------------- */
+
+.container {
+  border: 2px solid #fff;
+  display: grid;
+  gap: .75rem;
+  /* grid-template-columns: auto auto auto auto; */
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  height: 830px;
+  padding: 1rem;
+  max-height: 100%;
+  max-width: 100%;
+  width: 1500px;
+}
+
+.img__container {
+  display: grid;
+  place-items: center;
+}
+
+.title {
+  padding-bottom: .5rem;
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  padding: .5rem 0;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  border-left: 1px solid #fff;
+  max-width: 60%;
+  padding-left: .25rem;
+}
+
+.shortcuts {
+  border-top: 1px solid #fff;
+  display: flex;
+  padding-top: .5rem;
+}
+
+.command {
+  padding: .25rem 0;
+}

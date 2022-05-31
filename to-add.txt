@@ -1,0 +1,10 @@
+Ubuntu/terminal
+
+New terminal instance control shift N
+New terminal tab control shift T
+
+VSCode
+Select all instances of a find operation Alt enter
+Split view control \
+
+Markdown side by side edit and preview control+k v
